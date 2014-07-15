@@ -1,0 +1,29 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/nav_bar_style.css" />
+	<link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
+<title>Akhilesh Gandhi</title>
+</head>
+
+<style>
+body{background-color:#30FFFF;opacity:1; }
+
+h1{text-align: center; position: relative; top:220px; font-size: 30px;}
+.oneline{text-align: center; position: relative; top:210px; font-size: 20px;}
+
+</style>
+
+<body>
+<div class="bg"><image> </div>
+
+<h1>Akhilesh Gandhi</h1>
+<p class="oneline">Learning to code,coding to learn</p>
+
+<?php include("nav_bar.php"); ?>
+
+
+<body>
+
+
+
+</html>

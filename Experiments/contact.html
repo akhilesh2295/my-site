@@ -1,0 +1,63 @@
+<DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="nav_bar_style.css">
+
+	<title>Akhilesh Gandhi | Contact</title>
+</head>
+<style>
+
+#note{
+	border: groove;
+	height: 65%; width: 300px;
+	position: fixed; left: 5%; top: 100px; 
+}
+h3.title{
+	color: red;
+	text-align: center;
+	font-size: 24px;
+}
+.form_fill{
+	text-align: center;
+	position: relative; left: 25px;
+	width: 250px;
+	background: transparent;
+	border: groove;
+}
+#message{
+	position: relative; left: 25px;
+	width: 250px;
+	height: 48%;
+	font-size: 15px;	
+}
+#submit{
+	text-align: center;
+	position: relative; left: 110px;
+	width: 80px;
+}
+
+h1{text-align: center; position: relative; top:25px; font-size: 30px;}
+
+
+</style>
+
+<body>
+
+<h1> Contact Me !</h1>
+
+<div id="note">
+<h3 class="title"> Drop me a note </h3>
+<form method="POST" action="dropmeanote.php">
+<input type="text" name="cf_name" placeholder="NAME (Required)" class="form_fill"><p></p>
+<input type="text" name="cf_email" placeholder="Email (Required)" class="form_fill"><p></p>
+<textarea type="text" name="cf_message" placeholder="Message" class="form_fill" id="message"></textarea><p></p>
+<input type="submit" name="submit" value="bhej do" id="submit">
+</form>
+</div>
+
+<?php include("nav_bar.php"); ?>
+
+</body>
+
+
+</html>
